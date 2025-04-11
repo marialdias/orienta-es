@@ -16,10 +16,9 @@ botao.addEventListener('click',
 );
 function imprimir(){
     lista.innerHTML = "";
-    for(let i = 0;i < itens.length i++){
-        
-    }
-     let li = document.createElement("li")
-     li.textContent = 'Algo'
+    for(let i = 0;i < itens.length; i++){
+        let li = document.createElement("li")
+     li.textContent = lista[i]
      lista.appendChild(li)
 }
+    }
