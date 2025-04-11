@@ -18,7 +18,7 @@ function imprimir(){
     lista.innerHTML = "";
     for(let i = 0;i < itens.length; i++){
         let li = document.createElement("li")
-     li.textContent = lista[i]
+     li.textContent = itens[i]
      lista.appendChild(li)
 }
     }
